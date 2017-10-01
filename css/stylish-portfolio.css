@@ -13,6 +13,7 @@ html, body {
 
 body {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-image: url("../img/wallpaper.jpg");
 }
 
 .text-vertical-center {
@@ -153,7 +154,7 @@ hr.small {
 /* Header */
 
 .header {
-  color: #ddd;
+  color: #fff;
   position: relative;
   display: table;
   width: 100%;
@@ -163,6 +164,14 @@ hr.small {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+header h1 {
+  text-shadow: 5px 2px 5px black;
+}
+
+header h3 {
+  text-shadow: 2px 2px 5px black;
 }
 
 
@@ -198,6 +207,27 @@ hr.small {
   background-size: cover;
 }
 
+/* Contact */
+
+.bgcontact {
+  background: url("../img/contact/bg.jpg") no-repeat center center scroll;
+  background-size: cover;
+}
+
+/* Form */
+
+#formulaire {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+.obligatoire {
+  color: #aaa9a9;
+  font-style: italic;
+}
 
 /* Portfolio */
 

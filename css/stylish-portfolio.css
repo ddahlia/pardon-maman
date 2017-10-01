@@ -1,8 +1,8 @@
 /*!
- * Start Bootstrap - Stylish Portfolio (https://startbootstrap.com/template-overviews/stylish-portfolio)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
- */
+* Start Bootstrap - Stylish Portfolio (https://startbootstrap.com/template-overviews/stylish-portfolio)
+* Copyright 2013-2017 Start Bootstrap
+* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
+*/
 
 /* Global Styles */
 
@@ -167,7 +167,7 @@ hr.small {
 }
 
 header h1 {
-  text-shadow: 5px 2px 5px black;
+  text-shadow: 4px 2px 5px black;
 }
 
 header h3 {
@@ -185,6 +185,7 @@ header h3 {
 /* Services */
 
 .services {
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 50px 0;
 }
 
@@ -214,14 +215,83 @@ header h3 {
   background-size: cover;
 }
 
-/* Tattoo */
+/* Piercing */
 
-.bgtattoo {
-  background: url("../img/freepics/photo1.jpg");
+.bgpiercing {
+  background: url("../img/piercing/bg.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+/* Tattoo */
+
+.bgtattoo {
+  background: url("../img/tattoo/bg.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.tatoueurs {
+  margin-top: 80px;
+}
+
+/* Disclaimer in tattoo page */
+
+.disclaimer {
+  background-color: #fff;
+}
+
+.disclaimer .container {
+  width: 1000px;
+}
+
+.redlink {
+  color: #f71e1e;
+}
+
+/* Slider */
+
+.slider {
+  width: 900px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.slides {
+  width: calc(900px * 3);
+  animation: glisse 10s infinite;
+}
+
+.slide {
+  float: left;
+}
+
+@keyframes glisse {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-900px);
+  }
+  43% {
+    transform: translateX(-900px);
+  }
+  66% {
+    transform: translateX(-1800px);
+  }
+  76% {
+    transform: translateX(-1800px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 /* Form */
@@ -242,8 +312,6 @@ header h3 {
 /* Portfolio */
 
 .portfolio {
-  width: 90%;
-  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   padding: 50px 0;
@@ -279,7 +347,7 @@ header h3 {
 /* Call to Action */
 
 .call-to-action {
-  background-color: #000;
+  background-color: rgba(0,0,0,0.8);
   background-size: cover;
   padding: 50px 0;
 }
@@ -319,4 +387,12 @@ footer {
   bottom: 5px;
   display: none;
   padding: 15px 20px;
+}
+
+.fa-facebook-square {
+  color: #395ca9;
+}
+
+.fa-twitter-square {
+  color: #1997f0;
 }

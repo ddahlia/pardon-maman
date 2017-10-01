@@ -214,11 +214,21 @@ header h3 {
   background-size: cover;
 }
 
+/* Tattoo */
+
+.bgtattoo {
+  background: url("../img/freepics/photo1.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* Form */
 
 #formulaire {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 70px;
+  margin-bottom: 70px;
   margin-left: auto;
   margin-right: auto;
   width: 700px;
@@ -232,6 +242,10 @@ header h3 {
 /* Portfolio */
 
 .portfolio {
+  width: 90%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 50px 0;
 }
 
